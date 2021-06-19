@@ -1,7 +1,7 @@
-/* body{
+body{
     padding:50px 0px 0px 0px;
     z-index:0;
-} */
+}
 
 .navbar-dark {
      background-color: #512DA8;
@@ -29,7 +29,7 @@ address{
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+    border-bottom: 1px #e0dfdf solid;
     min-height:300px;
 }
 
@@ -39,3 +39,21 @@ address{
     padding: 20px 0px 20px 0px;
 }
 
+
+.table-content{
+    padding: 10px;
+}
+
+
+.btn-reserve-link a{
+    color: #000000 !important;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
